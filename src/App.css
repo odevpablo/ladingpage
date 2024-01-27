@@ -223,5 +223,9 @@ h4 {
   .about-card{  
     transform: translate(1%);
     width: 70vw;
-} 
+  } 
+  #titlecarousel{
+    top: 270% !important;
+  }
+
 }
