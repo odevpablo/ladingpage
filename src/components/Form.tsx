@@ -30,7 +30,7 @@ function FormMail(): JSX.Element {
 };
 
   return (
-    <div className="container" style={{fontFamily:'Playfair Display, serif' }}>
+    <div className="container" id='contato' style={{fontFamily:'Playfair Display, serif' }}>
       <h1 className="title">Contato</h1>
       <form className="form" onSubmit={handleSubmit}>
         <input
