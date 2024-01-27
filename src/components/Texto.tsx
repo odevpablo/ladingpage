@@ -43,7 +43,7 @@ const Texto: React.FC = () => {
                             transition: 'transform 0.3s ease-in-out',
                             transform: isHovered ? 'translateX(10px)' : 'translateX(0)',
                         }}
-                        onClick={handleClick} // Adiciona a função de clique
+                        onClick={handleClick} 
                     />
                 </h1>
             </div>

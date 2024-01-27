@@ -167,7 +167,8 @@ h4 {
     width: 100%;
   }
   #titlecarousel{
-      top: 405% !important;
+    position: absolute;
+      top: 285% !important;
     }
   .carousel{
     top: 34.5% !important;
@@ -206,7 +207,7 @@ h4 {
     top: 46%;
   }
   .about {
-    top: 280%;     
+    top: 190%;     
   }
 
   .about-card{  
@@ -221,11 +222,6 @@ h4 {
 
 @media (max-width: 500px){
   .about-card{  
-    transform: translate(1%);
+    transform: translate(1%, -60%);
     width: 70vw;
-  } 
-  #titlecarousel{
-    top: 270% !important;
-  }
-
-}
+} 
