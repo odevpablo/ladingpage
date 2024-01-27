@@ -139,7 +139,6 @@ h4 {
   position: relative;
 }
 @media (max-width: 768px) {
- 
   #root{
     max-height: 430vh;
   }
@@ -225,3 +224,16 @@ h4 {
     transform: translate(1%, -60%);
     width: 70vw;
 } 
+}
+@media (max-width: 457px) {
+  h2{
+    top: 50%;
+  }
+  .advogados{
+    top: 110%;
+  }
+  .about-card{
+    top: 180%;
+  }
+  
+}
