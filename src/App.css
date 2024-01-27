@@ -1,0 +1,226 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.texto h1 {
+  height: 110px;
+  width: 350px;
+  border: 1px solid #ffff;
+  background-color:#454b4cdd;
+  border-radius: 1%;
+  font-size: 28px;
+  padding: 25px;
+}
+
+h2 {
+  top: 65%;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 30px;
+  height: 350px;
+  position: absolute;
+  color: #090909d8;
+}
+#titlecarousel{
+  font-size: 30px;
+  padding: 0px;
+  left: 50%;
+  transform: translate(-50%);
+}
+h4 {
+  top: 0%;
+  padding: 0px;
+  font-weight: bold;
+  height: 300px;
+  position: relative;
+  color: #090909d8;
+}
+.servico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.about{
+  top: 205%;
+  width: 80vw;
+  display: flex;
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%);
+}
+.carousel{
+  margin-top: 0;
+  position: relative;
+}
+.carousel p {
+  width: 300px;
+  font-size: 40px;
+  padding: 20px; 
+  border: 2px solid #ccc; 
+  background-color: #454b4c78;
+  border-radius: 1%; 
+}
+.advogados{
+  display: flex;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.container{
+  height: 550px;
+  top: 26%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  color: #FFF;
+  padding: 10px;
+}
+
+.title{
+  margin-bottom: 14px;
+}
+
+.form{
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  margin-bottom: 14px;
+  height: 34px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 8px;
+}
+
+.textarea{
+  margin-bottom: 14px;
+  border-radius: 4px;
+  border: 0;
+  padding: 8px;
+  height: 94px;
+  resize: none;
+}
+
+.button{
+  height: 34px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  color: #121212;
+  background-color: #ffffff;
+  font-size: 18px;
+  transition: background-color, transform 0.8s;
+}
+
+.button:hover{
+  background-color: #454b4c;
+  transform: scale(1.01);
+}
+.map{
+  position: relative;
+  top: 25%;
+}
+
+#logo{
+  position: absolute;
+}
+#background {
+  width: 100vw;
+  height: 600px;
+  position: relative;
+}
+@media (max-width: 768px) {
+ 
+  #root{
+    max-height: 430vh;
+  }
+  #background{
+    height: 200px;
+  }
+  .texto h1 {
+    position: absolute;
+    top: 50%; 
+    font-size: 20px;
+    height: 100px; 
+    width: 70%; 
+    left: 15%; 
+    transform: translateY(120%) !important; 
+  }
+
+  .texto #icon {
+    position: absolute;
+    top: 50%;
+    left: 43% !important; 
+    transform: translateY(30%) !important; 
+    font-size: 30px !important;
+  }
+  .layout {
+    width: 100%;
+  }
+  #titlecarousel{
+      top: 405% !important;
+    }
+  .carousel{
+    top: 34.5% !important;
+  }
+  .carousel p{
+    width: 50vw;
+    font-size: 20px;
+  }
+  #oab{
+    position: relative;
+    transform: translate(-50%);
+  }
+
+  .texto h1 {
+    padding: 15px;
+    width: 200px;
+  }
+  
+  h2 {
+    top: 68%;
+  }
+
+  .card {
+    width: 100%; 
+  }
+  .advogados{
+    display: block;
+    top: 140%;
+  }
+  .map{
+    position: relative;
+    top: 46%;
+  }
+  .container{
+    position: relative;
+    top: 46%;
+  }
+  .about {
+    top: 280%;     
+  }
+
+  .about-card{  
+    transform: translate(15%);
+    width: 350px;
+    height: 400px;
+  }
+  .card-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px){
+  .about-card{  
+    transform: translate(1%);
+    width: 70vw;
+} 
