@@ -237,3 +237,15 @@ h4 {
   }
   
 }
+@media (max-width: 375px) {
+  h2{
+    top: 50%;
+  }
+  .advogados{
+    top: 110%;
+  }
+  .about-card{
+    top: 180%;
+  }
+  
+}
