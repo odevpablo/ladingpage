@@ -27,7 +27,7 @@ const Texto: React.FC = () => {
             <div
                 id='initial'
                 className={`texto ${isHovered ? 'hovered' : ''}`}
-                style={{ top: '55%', position: 'absolute', left: '15%', top: '80%', fontFamily: 'Playfair Display, serif' }}
+                style={{ position: 'absolute', left: '15%', top: '80%', fontFamily: 'Playfair Display, serif' }}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
             >
