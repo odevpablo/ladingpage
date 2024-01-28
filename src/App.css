@@ -207,7 +207,8 @@ h4 {
     top: 122%;
   }
   .about{
-    width: 90vw;
+    align-content: center;
+    width: 70vw;
     top: 280%;
   }
   .about-card{
