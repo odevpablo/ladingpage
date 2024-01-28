@@ -162,7 +162,7 @@ h4 {
     flex-direction: column;
   }
   .about{
-    top: 260%;
+    top: 250%;
   }
   #titlecarousel{
     width: 400px;
@@ -173,6 +173,7 @@ h4 {
     width: 300px;
   }
   .card-row{
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
   }
@@ -191,7 +192,32 @@ h4 {
   .oab{
     left: 60%;
   }
-  
-  
-  
+  .oab img{
+    width: 100px !important;
+    height: 50px !important;
+  }
+  .texto h1{
+    width: 200px;
+    padding: 5px;
+  }
+  #titlecarousel{
+    top: 375% !important;
+  }
+  .about{
+    width: 90vw;
+    top: 280%;
+  }
+  .about-card{
+    margin-bottom: 30px;
+    width: 250px;
+  }
+  .container{
+    top: 40%;
+  }
+  .map{
+    top: 40%;
+  }
+  .cr{
+    top: 28% !important;
+  }
 }
