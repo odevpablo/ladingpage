@@ -46,10 +46,9 @@ h4 {
 .about{
   top: 205%;
   width: 80vw;
-  display: flex;
   position: absolute;
-  left: 55%;
-  transform: translate(-50%);
+  left: 15%;
+  
 }
 .carousel{
   margin-top: 0;
@@ -201,15 +200,14 @@ h4 {
     padding: 5px;
   }
   #titlecarousel{
-    top: 375% !important;
+    top: 360% !important;
   }
   .advogados{
     top: 122%;
   }
   .about{
-    align-content: center;
-    width: 70vw;
-    top: 280%;
+    left: 18%;
+    top: 275%;
   }
   .about-card{
     margin-bottom: 30px;
