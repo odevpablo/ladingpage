@@ -169,7 +169,7 @@ h4 {
     top: 322% !important;
   }
   .about-card{
-    width: 300px;
+    width: 298px;
   }
   .card-row{
     margin-bottom: 10px;
@@ -204,12 +204,13 @@ h4 {
   }
   #titlecarousel{
     top: 370% !important;
+    width: 350px;
   }
   .advogados{
     top: 122%;
   }
   .about{
-    left: 17%;
+    left: 15%;
     top: 275%;
   }
   .about-card{
