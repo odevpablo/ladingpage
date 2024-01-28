@@ -147,23 +147,33 @@ h4 {
   .oab{
     position: absolute;
     top: 5%;
-    left: 60%;
+    left: 75%;
   }
   .initial{
     position: absolute;
-    top:80%;
+    top: 77%;
     left: 0;
   }
+  h2{
+    top: 55%;
+  }
   .advogados{
+    top: 115%;
     flex-direction: column;
   }
   .about{
-    top: 250%;
+    top: 260%;
+  }
+  #titlecarousel{
+    width: 400px;
+    z-index: 2;
+    top: 322% !important;
   }
   .about-card{
     width: 300px;
   }
   .card-row{
+    display: flex;
     flex-direction: column;
   }
   .map{
@@ -173,9 +183,15 @@ h4 {
     top: 34%;
   }
   .cr{
-    position: relative;
-    top: 22%;
+    position: absolute;
+    top: 22% !important;
   }
-
-
+}
+@media (max-width: 400px) {
+  .oab{
+    left: 60%;
+  }
+  
+  
+  
 }

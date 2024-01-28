@@ -59,7 +59,7 @@ const App: React.FC = () => {
               </div>
               <div><Servico /></div>
               <About />
-              <div className='cr'>
+              <div className='cr' style={{top:'9%', position:'relative'}}>
                 <Expo />
               </div>
               <FormMail />
