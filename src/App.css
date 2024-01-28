@@ -138,114 +138,44 @@ h4 {
   height: 600px;
   position: relative;
 }
-@media (max-width: 768px) {
-  #root{
-    max-height: 430vh;
-  }
-  #background{
-    height: 200px;
-  }
-  .texto h1 {
+@media (max-width: 720px) {
+  .logo{
     position: absolute;
-    top: 50%; 
-    font-size: 20px;
-    height: 100px; 
-    width: 70%; 
-    left: 15%; 
-    transform: translateY(120%) !important; 
+    left: 0;
+    top: 0;
   }
-
-  .texto #icon {
+  .oab{
     position: absolute;
-    top: 50%;
-    left: 43% !important; 
-    transform: translateY(30%) !important; 
-    font-size: 30px !important;
+    top: 5%;
+    left: 60%;
   }
-  .layout {
-    width: 100%;
-  }
-  #titlecarousel{
+  .initial{
     position: absolute;
-      top: 285% !important;
-    }
-  .carousel{
-    top: 34.5% !important;
-  }
-  .carousel p{
-    width: 50vw;
-    font-size: 20px;
-  }
-  #oab{
-    position: relative;
-    transform: translate(-50%);
-  }
-
-  .texto h1 {
-    padding: 15px;
-    width: 200px;
-  }
-  
-  h2 {
-    top: 68%;
-  }
-
-  .card {
-    width: 100%; 
+    top:80%;
+    left: 0;
   }
   .advogados{
-    display: block;
-    top: 140%;
-  }
-  .map{
-    position: relative;
-    top: 46%;
-  }
-  .container{
-    position: relative;
-    top: 46%;
-  }
-  .about {
-    top: 190%;     
-  }
-
-  .about-card{  
-    transform: translate(15%);
-    width: 350px;
-    height: 400px;
-  }
-  .card-row {
     flex-direction: column;
   }
-}
+  .about{
+    top: 250%;
+  }
+  .about-card{
+    width: 300px;
+  }
+  .card-row{
+    flex-direction: column;
+  }
+  .map{
+    top: 34%;
+  }
+  .container{
+    top: 34%;
+  }
+  .cr{
+    position: relative;
+    top: 22%;
+  }
 
-@media (max-width: 500px){
-  .about-card{  
-    transform: translate(1%, -60%);
-    width: 70vw;
-} 
-}
-@media (max-width: 457px) {
-  h2{
-    top: 50%;
-  }
-  .advogados{
-    top: 110%;
-  }
-  .about-card{
-    top: 180%;
-  }
-  
-}
-@media (max-width: 375px) {
-  h2{
-    top: 50%;
-  }
-  .advogados{
-    top: 110%;
-  }
-  .about-card{
-    top: 180%;
-  }
-  
+
 }

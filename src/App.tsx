@@ -23,7 +23,7 @@ const contentStyle: React.CSSProperties = {
 
 const footerStyle: React.CSSProperties = {
   textAlign: 'center',
-  height:'200px',
+  height:'250px',
   color: '#fff',
   backgroundColor: '#393E46',
 };
@@ -40,7 +40,7 @@ const App: React.FC = () => {
   const isSmallScreen = window.innerWidth <= 768; 
   
   if (isSmallScreen) {
-    contentStyle.minHeight = '700vh'; 
+    contentStyle.minHeight = '660vh'; 
   }
 
   return (
@@ -50,14 +50,18 @@ const App: React.FC = () => {
           <Layout>
             <Content id='content' style={contentStyle}>
               <img id='background' src={Backgroung} style={{ width: '100vw', height: '100vh', position: 'relative' }} />
-              <div>
-                <img id='logo' src={Logo} style={{ width: '200px', height: '200px', left: '95%', top: '10%', transform: 'translate(-122%, 30%)' }} />
+              <div className='logo'>
+                <img id='logo' src={Logo} style={{ width: '200px', height: '200px', left: '80%', top: '10%'}} />
               </div>
               <h4 id='titlecarousel' style={{ fontFamily: 'Playfair Display, serif', position:'absolute',top:'205%', marginBottom:'0px',textAlign:'center' }}>Áreas de Atuação</h4>
-              <div><Texto /></div>
+              <div className='initial'>
+                <Texto />
+              </div>
               <div><Servico /></div>
               <About />
-              <Expo />
+              <div className='cr'>
+                <Expo />
+              </div>
               <FormMail />
               <Map />
             </Content>

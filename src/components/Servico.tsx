@@ -9,7 +9,9 @@ const Servico: React.FC = () => {
     return (
         <div className='servico'>
             <h2 style={{ fontFamily: 'Playfair Display, serif' }}>Equipe de Advogados</h2>
+            <div className='oab'>
             <img src={Oab} id='oab' style={{width:'150px', height:'60px', position:'absolute', top:'90%', left:'80%'}}/>
+            </div>
             <div className='advogados' style={{ position:'absolute'}}>
                 <Card
                     hoverable
