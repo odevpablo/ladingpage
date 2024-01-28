@@ -195,13 +195,16 @@ h4 {
 }
 @media (max-width: 400px) {
   .oab{
-    left: 60%;
+    left: 65%;
   }
   .oab img{
-    width: 100px !important;
+    width: 120px !important;
     height: 50px !important;
   }
+  .texto{
+  }
   .texto h1{
+    margin: 10px;
     width: 200px;
     padding: 5px;
   }
@@ -227,7 +230,7 @@ h4 {
   }
   #end{
     top: 610% !important;
-    
+    width: auto;
   }
   .cr{
     top: 28% !important;
