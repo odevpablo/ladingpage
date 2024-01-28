@@ -64,6 +64,7 @@ const App: React.FC = () => {
               </div>
               <FormMail />
               <Map />
+              <p id='end' style={{fontSize:'15px', position:'absolute', top:'360%',width:'400px',left:'37%'}}>Praça do Centenário,335 - CENTRO, São Francisco - MG</p>
             </Content>
             <Footer style={footerStyle}></Footer>
           </Layout>
