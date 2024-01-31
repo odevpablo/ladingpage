@@ -196,24 +196,23 @@ h4 {
     width: 350px;
   }
   .advogados{
-    top: 122%;
+    top: 132%;
   }
   .about{
     left: 17%;
-    top: 275%;
+    top: 285%;
   }
   .about-card{
     margin-bottom: 30px;
     width: 250px;
   }
   .container{
-    top: 40%;
+    top: 45%;
   }
   .map{
     top: 40%;
   }
-
   .cr{
-    top: 28% !important;
+    top: 25% !important;
   }
 }
