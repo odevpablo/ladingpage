@@ -4,12 +4,12 @@ import './App.css';
 
 import Logo from './assets/logorpadv.png';
 import Backgroung from './assets/background.jpg';
-import Texto from './components/Texto';
 import Servico from './components/Servico';
 import FormMail from './components/Form';
 import Expo from './components/Carousel';
 import Map from './components/Localizacao';
 import About from './components/Referencia';
+import { DoubleLeftOutlined } from '@ant-design/icons';
 
 const { Footer, Content } = Layout;
 
@@ -53,10 +53,9 @@ const App: React.FC = () => {
               <div className='logo'>
                 <img id='logo' src={Logo} style={{ width: '200px', height: '200px', left: '80%', top: '10%'}} />
               </div>
+              <div className='slideinfo' style={{ position: 'absolute', top: '95%',left: '50%',transform: 'translate(-50%, -50%)',}}>
+                <DoubleLeftOutlined style={{fontSize:'60px', transform: 'rotate(269deg)'}}/></div>
               <h4 id='titlecarousel' style={{ fontFamily: 'Playfair Display, serif', position:'absolute',top:'205%', marginBottom:'0px',textAlign:'center' }}>Áreas de Atuação</h4>
-              <div className='initial'>
-                <Texto />
-              </div>
               <div><Servico /></div>
               <About />
               <div className='cr' style={{top:'9%', position:'relative'}}>

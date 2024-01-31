@@ -56,6 +56,7 @@ h4 {
 }
 .carousel p {
   width: 300px;
+  height: 500px;
   font-size: 40px;
   padding: 20px; 
   border: 2px solid #ccc; 
@@ -132,12 +133,12 @@ h4 {
 #logo{
   position: absolute;
 }
-#background {
-  width: 100vw;
-  height: 600px;
-  position: relative;
-}
+
 @media (max-width: 720px) {
+  #background{
+    width: auto !important;
+    height: 650px !important;
+  }
   .logo{
     position: absolute;
     left: 0;

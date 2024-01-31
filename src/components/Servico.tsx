@@ -10,7 +10,7 @@ const Servico: React.FC = () => {
         <div className='servico'>
             <h2 style={{ fontFamily: 'Playfair Display, serif' }}>Equipe de Advogados</h2>
             <div className='oab'>
-            <img src={Oab} id='oab' style={{width:'150px', height:'60px', position:'absolute', top:'90%', left:'80%'}}/>
+            <img src={Oab} id='oab' style={{width:'100px', height:'40px', position:'absolute', top:'9%', left:'5%'}}/>
             </div>
             <div className='advogados' style={{ position:'absolute'}}>
                 <Card
