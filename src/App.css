@@ -111,6 +111,7 @@ h4 {
   transform: scale(1.01);
 }
 .map{
+  margin: 0;
   position: relative;
   top: 25%;
 }
@@ -150,9 +151,7 @@ h4 {
     position: absolute;
     top: 20%;
   }
-  .carousel{
-    
-  }
+  
   
   .about-card{
     width: 298px;
@@ -179,30 +178,30 @@ h4 {
     left: 65%;
   }
   h2{
-    top: 63%;
+    top: 70% !important;
   }
   .oab img{
     width: 120px !important;
     height: 50px !important;
   }
 
-  #titlecarousel{
-    top: 374% !important;
-    width: 350px;
-  }
   .advogados{
-    top: 132%;
+    top: 130% !important;
   }
   .about{
     left: 17%;
-    top: 285%;
+    top: 280% !important;
   }
   .about-card{
     margin-bottom: 30px;
     width: 250px;
   }
+ 
   .container{
-    top: 37%;
+    top: 42%;
+  }
+  .cr{
+    top: 42%;
   }
   .map{
     top: 40%;
