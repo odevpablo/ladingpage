@@ -35,10 +35,7 @@ h4 {
   left: 15%;
   
 }
-.carousel{
-  margin-top: 0;
-  position: relative;
-}
+
 .carousel p {
   width: 320px;
   height: 400px;
@@ -145,14 +142,7 @@ h4 {
   }
   .about{
     top: 220% !important;
-  }
-  #titlecarousel{
-    width: 400px;
-    position: absolute;
-    top: 20%;
-  }
-  
-  
+  }  
   .about-card{
     width: 298px;
   }
@@ -160,6 +150,10 @@ h4 {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+  }
+  .carousel{
+    position: relative;
+    top: 250px !important;
   }
   .map{
     top: 34%;
@@ -170,7 +164,7 @@ h4 {
 
   .cr{
     position: absolute;
-    top: 22% !important;
+    top: 32% !important;
   }
 }
 @media (max-width: 400px) {
