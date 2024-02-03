@@ -55,7 +55,6 @@ const App: React.FC = () => {
               </div>
               <div className='slideinfo' style={{ position: 'absolute', top: '95%',left: '50%',transform: 'translate(-50%, -50%)',}}>
                 <DoubleLeftOutlined style={{fontSize:'60px', transform: 'rotate(269deg)'}}/></div>
-              <h4 id='titlecarousel' style={{ fontFamily: 'Playfair Display, serif', position:'absolute',top:'205%', marginBottom:'0px',textAlign:'center' }}>Áreas de Atuação</h4>
               <div><Servico /></div>
               <About />
               <div className='cr' style={{top:'9%', position:'relative'}}>

@@ -22,7 +22,8 @@ const textContainerStyle: React.CSSProperties = {
   width: '100%',
   position: 'absolute',  
   bottom: 0,
-  zIndex: '1',  
+  zIndex: '1',
+  color: 'black',
 };
 
 
@@ -38,33 +39,37 @@ const Expo: React.FC = () => {
   }
 
   return(
-      <div className='carousel'style={{ textAlign: 'center', position:'relative',top:'9%'}}>
+      <div className='carousel'style={{ textAlign: 'center',top:'100%'}}>
         <Carousel style={{ width: '100%', position: 'absolute', top:'180%' , fontFamily:'Playfair Display, serif' }} autoplay>
           <div>
             <h3 style={{...contentStyle, backgroundImage: `url(${Civil})`}}>
               <div style={textContainerStyle}>
-                <p> Civil</p>
+                <p>Jurídico:
+                   <br/>Normas que regem relações pessoais, contratos e propriedades. Fundamentais para a ordem social e jurídica.</p>
               </div>
             </h3>
           </div>
           <div>
             <h3 style={{...contentStyle, backgroundImage: `url(${Penal})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
               <div style={textContainerStyle}>
-                <p>Penal</p>
+                <p>Civil:
+                  <br/>Disciplina crimes, aplica punições e preserva a ordem social através do sistema jurídico.</p>
               </div>
             </h3>
           </div>
           <div>
             <h3 style={{...contentStyle, backgroundImage: `url(${Trabalho})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
               <div style={textContainerStyle}>
-                <p>Trabalhista</p>
+                <p>Trabalhista:
+                  <br/>Garante direitos laborais, equidade nas relações empregatícias e condições justas de trabalho.</p>
               </div>
             </h3>
           </div>
           <div>
             <h3 style={{...contentStyle, backgroundImage: `url(${Previdenciario})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
               <div style={textContainerStyle}>
-                <p>Seguridade Social</p>
+                <p>Seguridade social:
+                  <br/>Pilar essencial para amparar cidadãos em saúde, previdência e assistência.</p>
               </div>
             </h3>
           </div>
