@@ -6,6 +6,7 @@ import Trabalho from '../assets/Trabalho.jpg';
 import Penal from '../assets/penal.jpg';
 import Previdenciario from '../assets/previdenciário.jpg';
 
+
 const contentStyle: React.CSSProperties = {
   height: '80vh',
   width:'100%',
@@ -23,10 +24,7 @@ const textContainerStyle: React.CSSProperties = {
   position: 'absolute',  
   bottom: 0,
   zIndex: '1',
-  color: 'black',
 };
-
-
 
 const Expo: React.FC = () => {
 
@@ -39,8 +37,8 @@ const Expo: React.FC = () => {
   }
 
   return(
-      <div className='carousel'style={{ textAlign: 'center',top:'100%'}}>
-        <Carousel style={{ width: '100%', position: 'absolute', top:'180%' , fontFamily:'Playfair Display, serif' }} autoplay>
+      <div className='carousel'>
+        <Carousel autoplay>
           <div>
             <h3 style={{...contentStyle, backgroundImage: `url(${Civil})`}}>
               <div style={textContainerStyle}>

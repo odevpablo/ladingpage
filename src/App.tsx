@@ -6,10 +6,10 @@ import Logo from './assets/logorpadv.png';
 import Backgroung from './assets/background.jpg';
 import Servico from './components/Servico';
 import FormMail from './components/Form';
-import Expo from './components/Carousel';
 import Map from './components/Localizacao';
 import About from './components/Referencia';
 import { DoubleLeftOutlined } from '@ant-design/icons';
+import Expo from './components/Carousel';
 
 const { Footer, Content } = Layout;
 
@@ -57,12 +57,11 @@ const App: React.FC = () => {
                 <DoubleLeftOutlined style={{fontSize:'60px', transform: 'rotate(269deg)'}}/></div>
               <div><Servico /></div>
               <About />
-              <div className='cr' style={{top:'9%', position:'relative'}}>
-                <Expo />
-              </div>
+              <div className='exposicao' style={{top:'250px', position:'relative'}}>
+               <Expo/>
+               </div>
               <FormMail />
               <Map />
-              
             </Content>
             <Footer style={footerStyle}></Footer>
           </Layout>

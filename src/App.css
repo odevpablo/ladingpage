@@ -14,6 +14,7 @@ h2 {
   color: #090909d8;
 }
 
+
 h4 {
   top: 0%;
   padding: 0px;
@@ -36,6 +37,7 @@ h4 {
   
 }
 
+
 .carousel p {
   width: 320px;
   height: 400px;
@@ -43,7 +45,8 @@ h4 {
   padding: 70px; 
   border: none; 
   background-color: #ffffff75;
-  border-radius: 1%; 
+  border-radius: 1%;
+  color: #121212; 
 }
 .advogados{
   display: flex;
@@ -51,9 +54,10 @@ h4 {
   left: 50%;
   transform: translate(-50%);
 }
+
 .container{
   height: 550px;
-  top: 25%;
+  top: 7%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -110,7 +114,7 @@ h4 {
 .map{
   margin: 0;
   position: relative;
-  top: 25%;
+  top: 7%;
 }
 
 #logo{
@@ -151,21 +155,16 @@ h4 {
     display: flex;
     flex-direction: column;
   }
-  .carousel{
-    position: relative;
-    top: 250px !important;
+  .exposicao{
+    top: 30.5% !important;
   }
   .map{
-    top: 34%;
+    top: 30% !important;
   }
   .container{
-    top: 34%;
+    top: 30% !important;
   }
 
-  .cr{
-    position: absolute;
-    top: 32% !important;
-  }
 }
 @media (max-width: 400px) {
   .oab{
