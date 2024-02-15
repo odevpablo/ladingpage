@@ -55,8 +55,7 @@ function FormMail(): JSX.Element {
           onChange={(e) => setMessage(e.target.value)}
           value={message}
         />
-
-        <input className="button" type="submit" value="Enviar" />
+        <input style={{fontFamily:'Playfair Display, serif'}} className="button" type="submit" value="Enviar" />
       </form>
     </div>
   );

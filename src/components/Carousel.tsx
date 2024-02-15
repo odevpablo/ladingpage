@@ -16,6 +16,7 @@ const contentStyle: React.CSSProperties = {
   color: '#fff',
   textAlign: 'center',
   background: '',
+  fontFamily:'Playfair Display, serif',
 };
 
 const textContainerStyle: React.CSSProperties = {

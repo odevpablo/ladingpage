@@ -26,6 +26,7 @@ const footerStyle: React.CSSProperties = {
   height:'250px',
   color: '#fff',
   backgroundColor: '#393E46',
+  fontFamily:'Playfair Display, serif',
 };
 
 const layoutStyle = {
@@ -63,7 +64,16 @@ const App: React.FC = () => {
               <FormMail />
               <Map />
             </Content>
-            <Footer style={footerStyle}></Footer>
+            <Footer className='footer' style={footerStyle}>
+            <div className="info">
+              <p>Endereço: Praça do Centenário, 335 - CENTRO, São Francisco - MG</p>
+              <p>Telefone: (38) 99966-4763</p>
+              <p>Email: raphaelnetoadv@gmail.com</p>
+            </div>
+            <div className="dev" style={{top:'35%', position: 'relative'}}>
+            <p> © 2024 Modelo Landing page. Todos os direitos reservados. Desenvolvido por @odevpablo</p>
+            </div>
+            </Footer>
           </Layout>
         </Layout>
       </Flex>

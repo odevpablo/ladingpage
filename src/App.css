@@ -121,6 +121,7 @@ h4 {
   position: absolute;
 }
 
+
 @media (max-width: 720px) {
   #background{
     width: auto !important;
@@ -164,7 +165,11 @@ h4 {
   .container{
     top: 30% !important;
   }
-
+  .footer{
+    position: absolute;
+    top: 615%;
+    height: 300px !important;
+  }
 }
 @media (max-width: 400px) {
   .oab{
