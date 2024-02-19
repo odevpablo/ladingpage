@@ -139,14 +139,15 @@ h4 {
   }
  
   h2{
-    top: 40% !important;
+    top: 70% !important;
   }
   .advogados{
-    top: 100% !important;
+    top: 140% !important;
     flex-direction: column;
   }
   .about{
-    top: 220% !important;
+    top: 300% !important;
+
   }  
   .about-card{
     width: 298px;
@@ -167,8 +168,9 @@ h4 {
   }
   .footer{
     position: absolute;
-    top: 615%;
-    height: 300px !important;
+    top: 660%;
+    width: 100% !important;
+    height: 500px !important;
   }
 }
 @media (max-width: 400px) {
