@@ -209,4 +209,8 @@ h4 {
   .cr{
     top: 25% !important;
   }
+  .footer{
+    height: auto;
+    width: auto;
+  }
 }
